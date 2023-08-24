@@ -1,0 +1,31 @@
+creating links in html.
+
+using an anchor element <a>href="destination"</a> will create a clickable link
+
+to open link in a new tab add
+
+target="_blank"
+
+if this is left out the link will take on the value of _self and open in current tab. 
+
+for added security and anti phising properties add(describes the relationship between the html page and the document):
+
+
+rel="noopener noreferrer"
+
+noopener= value prevents the document page being opened from accessing the page from whcih it was opened.
+
+noreferrer= value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. 
+
+they share similar attributes can be used by themselves but good to know both.
+
+
+they help with to prevent phishing attacks.
+
+its recommended to match target="_blank" with rel="noopener noreferre"
+
+final code:
+
+<a>href="destination" target="_blank" ref="noopener no referrer"</a>
+
+
